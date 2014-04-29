@@ -30,7 +30,8 @@ $.extend(ScrollObserver.prototype, {
   },
 
   testAt: function(event, target, handler, data) {
-  if (event.type !== 'scrollat') { return; }
+    if (event.type !== 'scrollat') { return; }
+
     var point = event.data.point;
 
     if ($.isFunction(point)) { point = point.call(target); }
