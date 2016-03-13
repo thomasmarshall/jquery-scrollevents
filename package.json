@@ -1,0 +1,23 @@
+{
+  "name": "jquery-scrollevents",
+  "version": "0.0.1",
+  "description": "A handful of jQuery special events for doing stuff with scrolling",
+  "main": "jquery.scrollevents.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasmarshall/jquery-scrollevents.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Thomas Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasmarshall/jquery-scrollevents/issues"
+  },
+  "homepage": "https://github.com/thomasmarshall/jquery-scrollevents#readme"
+}
