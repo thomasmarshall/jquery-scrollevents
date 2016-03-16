@@ -4,7 +4,8 @@
   "description": "A handful of jQuery special events for doing stuff with scrolling",
   "main": "jquery.scrollevents.js",
   "scripts": {
-    "test": "testem"
+    "test": "testem",
+    "test-ci": "testem ci"
   },
   "repository": {
     "type": "git",
