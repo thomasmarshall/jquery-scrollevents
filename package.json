@@ -4,7 +4,7 @@
   "description": "A handful of jQuery special events for doing stuff with scrolling",
   "main": "jquery.scrollevents.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testem"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/thomasmarshall/jquery-scrollevents/issues"
   },
-  "homepage": "https://github.com/thomasmarshall/jquery-scrollevents#readme"
+  "homepage": "https://github.com/thomasmarshall/jquery-scrollevents#readme",
+  "devDependencies": {
+    "jquery": "^2.2.1",
+    "qunitjs": "^1.22.0",
+    "testem": "^1.5.0"
+  }
 }
